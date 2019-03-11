@@ -23,7 +23,7 @@
 	background-color: #543252;
 	color: #000;
     font-size: 15px;
-    line-height: 15px;
+    line-height: 25px;
     font-family: agency-fb, sans-serif;
 }
 
@@ -69,7 +69,7 @@
 	display: flex;
 }
 
-.pastEventsTitle {
+.Title {
     display: inline-block;
     text-align: left;
     vertical-align: bottom;
@@ -86,21 +86,28 @@
     font-family: agency fb, sans-serif;
 }
 
-.articleImg1 {
+.articleImg {
 	width: 406px;
 	height: 62px;
-	background-image: url(../images/kat.jpg);
 	margin-bottom: 47px;
 	margin-right: 31px;
 	padding: 196px 22px 22px 22px;
 }
 
-.pastEvent {
+.katPic {
+	background-image: url(../images/kat.jpg);
+}
+
+.amiePic {
+	background-image: url(../images/amie.jpg);
+}
+
+.Bio {
 	display: flex;
 	flex-direction: row;
 }
 
-.pastEventsContent {
+.bioContent {
 	overflow: hidden;
 	display: none;
 	height: 0px;
